@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "schembuilder",
+  "version": "${version}",
+  "name": "SchemBuilder",
+  "description": "Loads .litematic, .schem and .nbt schematics and builds them for you, with a polished animated interface.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.schembuilder.SchemBuilderClient"]
+  },
+  "mixins": ["schembuilder.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

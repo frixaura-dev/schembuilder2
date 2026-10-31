@@ -1,0 +1,6 @@
+{
+  "category.schembuilder": "SchemBuilder",
+  "key.schembuilder.open": "Open SchemBuilder",
+  "key.schembuilder.pause": "Pause / resume build",
+  "key.schembuilder.stop": "Stop build"
+}
